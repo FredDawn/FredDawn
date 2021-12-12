@@ -55,7 +55,7 @@ def restaurant(update, context):
  
     reply_markup = InlineKeyboardMarkup(keyboard)
  
-    update.message.reply_text(f'{user}, 欢迎来到自定餐厅抽签系统\n\n 退出-  》  0\n继续-  》  1\n抽签-  》  2\n\n请按一个按钮', reply_markup=reply_markup)
+    update.message.reply_text(f'{user}, 欢迎来到自定餐厅抽签系统\n\n退出-  》  0\n继续-  》  1\n抽签-  》  2\n\n请按一个按钮', reply_markup=reply_markup)
     return ONE
  
  
