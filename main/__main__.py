@@ -7,6 +7,7 @@ import random
 import json
 from telegram.ext.dispatcher import run_async
 import time
+from main import dispatcher 
 from telegram.ext import CommandHandler, InlineQueryHandler, \
     ConversationHandler  # conversation handler is like there are more than 1 step the bot needs to do , not just 1 question 1 answer , conversation handler is more complex to do
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, \
