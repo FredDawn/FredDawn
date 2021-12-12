@@ -116,4 +116,3 @@ RESET_HANDLER = CommandHandler('reset', reset)
 dispatcher.add_handler(RES_HANDLER)
 dispatcher.add_handler(RESET_HANDLER)
  
-updater.start_polling()
